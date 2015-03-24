@@ -97,5 +97,6 @@ sudo ln -s $WORK/dotfiles/.vimrc ~/.nvimrc
 mkdir ~/.vimbackup
 mkdir ~/.vimundo
 
-
-
+#ultisnips private repo must be present in your workspace for the custom snippets to work
+rm -Rf ~/.ultisnips
+sudo ln -s $WORK/ultisnips ~/.ultisnips

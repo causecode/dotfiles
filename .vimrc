@@ -333,7 +333,7 @@ augroup reload_vimrc " {
     autocmd BufWritePost '~/.vimrc' source '~/.vimrc'
 augroup END " }
 
-let g:UltiSnipsSnippetDirectories=["UltiSnips","snippets/angularjs/UltiSnips", "~/.vim/bundle/vim-snippets/snippets"]
+let g:UltiSnipsSnippetDirectories=["~/.ultisnips","UltiSnips","snippets/angularjs/UltiSnips", "~/.vim/bundle/vim-snippets/snippets"]
 
 " make YCM compatible with UltiSnips (using supertab)
 let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
