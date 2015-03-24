@@ -6,3 +6,4 @@ dependencies/hg-prompt/*
 .vim/bundle/*
 .gitconfig
 .todo.actions.d/recur
+.vim/UltiSnips
