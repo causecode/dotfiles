@@ -1,0 +1,10 @@
+cd /Volumes/data/Workspace/dotfiles/dependencies/zsh-history-substring-search
+git pull
+cd /Volumes/data/Workspace/dotfiles/dependencies/zsh-syntax-highlighting
+git pull
+cd /Volumes/data/Workspace/dotfiles/dependencies/friendly-find
+git pull
+cd /Volumes/data/Workspace/dotfiles/dependencies/vim-ororo
+git pull
+cd /Volumes/data/Workspace/dotfiles/dependencies/ansiweather
+git pull
