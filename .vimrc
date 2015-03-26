@@ -379,3 +379,7 @@ let g:tagbar_type_groovy = {
 set secure
 " Add a private vim-rc for other things
 " source ~/.vimrc-private
+
+syntax enable
+set background=dark
+colorscheme solarized
