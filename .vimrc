@@ -15,105 +15,105 @@ nmap <leader>l :set list!<CR>
 set listchars=tab:▸\ ,eol:¬
 
 "Plugins management
-Bundle 'sjurgemeyer/vundleconfig.git'
-Bundle 'gmarik/vundle'
+Plugin 'sjurgemeyer/vundleconfig.git'
+Plugin 'gmarik/vundle'
 
 "Code completion
-Bundle 'ervandew/supertab'
-Bundle 'Valloric/YouCompleteMe'
-Bundle 'SirVer/ultisnips'
-Bundle 'honza/vim-snippets'
+Plugin 'ervandew/supertab'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'SirVer/ultisnips'
+Plugin 'honza/vim-snippets'
 
 "Buffer management
-Bundle 'jeetsukumaran/vim-buffergator.git'
-Bundle 'BufOnly.vim'
-Bundle 'ZoomWin'
+Plugin 'jeetsukumaran/vim-buffergator.git'
+Plugin 'BufOnly.vim'
+Plugin 'ZoomWin'
 
 "Navigation
-Bundle 'kien/ctrlp.vim.git'
-Bundle 'majutsushi/tagbar.git'
-Bundle 'scrooloose/nerdtree.git'
-Bundle 'jayflo/vim-skip'
-Bundle 'sjl/gundo.vim.git'
-Bundle 'tpope/vim-unimpaired.git'
-Bundle 'jlanzarotta/bufexplorer'
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'mhinz/vim-startify'
-Bundle 'airblade/vim-rooter'
+Plugin 'kien/ctrlp.vim.git'
+Plugin 'majutsushi/tagbar.git'
+Plugin 'scrooloose/nerdtree.git'
+Plugin 'jayflo/vim-skip'
+Plugin 'sjl/gundo.vim.git'
+Plugin 'tpope/vim-unimpaired.git'
+Plugin 'jlanzarotta/bufexplorer'
+Plugin 'Lokaltog/vim-easymotion'
+Plugin 'mhinz/vim-startify'
+Plugin 'airblade/vim-rooter'
 
 "Searching
-Bundle 'mileszs/ack.vim'
-Bundle 'tpope/vim-abolish.git'
+Plugin 'mileszs/ack.vim'
+Plugin 'tpope/vim-abolish.git'
 
 "terminal clipboard
-Bundle 'kana/vim-fakeclip'
+Plugin 'kana/vim-fakeclip'
 
 "Writing stuff
-Bundle 'mattn/calendar-vim'
-Bundle 'jmcantrell/vim-journal'
+Plugin 'mattn/calendar-vim'
+Plugin 'jmcantrell/vim-journal'
 
 "Dash
-Bundle 'rizzatti/funcoo.vim'
-Bundle 'rizzatti/dash.vim'
+Plugin 'rizzatti/funcoo.vim'
+Plugin 'rizzatti/dash.vim'
 
 "Editing
-Bundle 'scrooloose/syntastic.git'
-Bundle 'tpope/vim-surround'
-Bundle 'scrooloose/nerdcommenter.git'
-Bundle 'sjurgemeyer/vim-grails-import'
-Bundle 'taglist.vim'
+Plugin 'scrooloose/syntastic.git'
+Plugin 'tpope/vim-surround'
+Plugin 'scrooloose/nerdcommenter.git'
+Plugin 'sjurgemeyer/vim-grails-import'
+Plugin 'taglist.vim'
 
 "Formatting
-Bundle 'vim-scripts/Align.git'
-"Bundle 'tpope/vim-sleuth'
-Bundle 'vim-scripts/SyntaxRange'
-Bundle 'vim-scripts/SyntaxComplete'
+Plugin 'vim-scripts/Align.git'
+"Plugin 'tpope/vim-sleuth'
+Plugin 'vim-scripts/SyntaxRange'
+Plugin 'vim-scripts/SyntaxComplete'
 
 "Filetype
-Bundle 'tpope/vim-markdown'
-Bundle 'suan/vim-instant-markdown'
-Bundle 'csv.vim'
+Plugin 'tpope/vim-markdown'
+Plugin 'suan/vim-instant-markdown'
+Plugin 'csv.vim'
 
 "Javascript stuff
-Bundle 'jelera/vim-javascript-syntax'
-Bundle 'othree/javascript-libraries-syntax.vim'
-Bundle 'vim-scripts/JavaScript-Indent'
-Bundle 'Shutnik/jshint2.vim'
+Plugin 'jelera/vim-javascript-syntax'
+Plugin 'othree/javascript-libraries-syntax.vim'
+Plugin 'vim-scripts/JavaScript-Indent'
+Plugin 'Shutnik/jshint2.vim'
 
 "TODO.txt
-Bundle 'freitass/todo.txt-vim'
-Bundle 'sjurgemeyer/vim-todo.txt-plugin'
+Plugin 'freitass/todo.txt-vim'
+Plugin 'sjurgemeyer/vim-todo.txt-plugin'
 
-Bundle 'vim-scripts/dbext.vim'
+Plugin 'vim-scripts/dbext.vim'
 
 "Git
-Bundle 'sjl/splice.vim'
-Bundle 'tpope/vim-fugitive.git'
-Bundle 'gregsexton/gitv.git'
-Bundle 'idanarye/vim-merginal'
+Plugin 'sjl/splice.vim'
+Plugin 'tpope/vim-fugitive.git'
+Plugin 'gregsexton/gitv.git'
+Plugin 'idanarye/vim-merginal'
 
 "github PR review
-Bundle 'junkblocker/patchreview-vim'
-Bundle 'codegram/vim-codereview'
+Plugin 'junkblocker/patchreview-vim'
+Plugin 'codegram/vim-codereview'
 
 "Utils
-Bundle 'tpope/vim-repeat'
-Bundle 'tpope/vim-dispatch'
-Bundle 'henrik/vim-qargs'
+Plugin 'tpope/vim-repeat'
+Plugin 'tpope/vim-dispatch'
+Plugin 'henrik/vim-qargs'
 
 "Pretty
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'bling/vim-airline'
-Bundle 'vim-scripts/JavaImp.vim--Lee'
-Bundle 'akhaku/vim-java-unused-imports'
-"Bundle 'slimv.vim'
-Bundle 'tpope/vim-ragtag'
-Bundle 'gcmt/wildfire.vim'
-Bundle 'vim-scripts/Greplace.vim'
-Bundle 'Chiel92/vim-autoformat'
-Bundle 'einars/js-beautify'
-Bundle 'tpope/vim-endwise'
-Bundle 'Raimondi/delimitMate'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'bling/vim-airline'
+Plugin 'vim-scripts/JavaImp.vim--Lee'
+Plugin 'akhaku/vim-java-unused-imports'
+"Plugin 'slimv.vim'
+Plugin 'tpope/vim-ragtag'
+Plugin 'gcmt/wildfire.vim'
+Plugin 'vim-scripts/Greplace.vim'
+Plugin 'Chiel92/vim-autoformat'
+Plugin 'einars/js-beautify'
+Plugin 'tpope/vim-endwise'
+Plugin 'Raimondi/delimitMate'
 au FileType java :so "/usr/share/vim/javakit/vim/JavaKit.vim"
 syntax on
 filetype plugin on
