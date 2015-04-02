@@ -1,18 +1,10 @@
 set nocompatible
 set exrc
 filetype off
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-set rtp+=~/.vim/bundle/vundleconfig/
-call vundleconfig#init()
+"set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
-let mapleader = "q"
-let g:mapleader = "q"
-nnoremap <leader> q
-" Shortcut to rapidly toggle `set list`
-nmap <leader>l :set list!<CR>
-" Use the same symbols as TextMate for tabstops and EOLs
-set listchars=tab:▸\ ,eol:¬
 
 "Plugins management
 Plugin 'sjurgemeyer/vundleconfig.git'
@@ -114,6 +106,18 @@ Plugin 'Chiel92/vim-autoformat'
 Plugin 'einars/js-beautify'
 Plugin 'tpope/vim-endwise'
 Plugin 'Raimondi/delimitMate'
+
+call vundle#end()
+"set rtp+=~/.vim/bundle/vundleconfig/
+"call vundleconfig#init()
+
+let mapleader = "q"
+let g:mapleader = "q"
+nnoremap <leader> q
+" Shortcut to rapidly toggle `set list`
+nmap <leader>l :set list!<CR>
+" Use the same symbols as TextMate for tabstops and EOLs
+set listchars=tab:▸\ ,eol:¬
 au FileType java :so "/usr/share/vim/javakit/vim/JavaKit.vim"
 syntax on
 filetype plugin on
@@ -375,3 +379,7 @@ let g:tagbar_type_groovy = {
 set secure
 " Add a private vim-rc for other things
 " source ~/.vimrc-private
+
+syntax enable
+set background=dark
+colorscheme solarized

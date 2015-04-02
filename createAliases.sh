@@ -2,8 +2,8 @@ rm -Rf ~/.ackrc
 sudo ln -s $WORK/dotfiles/.ackrc ~/.ackrc #For Ack 2.0
 sudo rm -Rf /usr/local/bin/ffind
 sudo ln -s $WORK/dotfiles/dependencies/friendly-find/ffind /usr/local/bin/ffind
-rm /Users/sjurgemeyer/Library/Application\ Support/KeyRemap4MacBook/private.xml
-sudo ln -s $WORK/dotfiles/config/private.xml ~/Library/Application\ Support/KeyRemap4MacBook/private.xml
+#rm /Users/sjurgemeyer/Library/Application\ Support/KeyRemap4MacBook/private.xml
+#sudo ln -s $WORK/dotfiles/config/private.xml ~/Library/Application\ Support/KeyRemap4MacBook/private.xml
 rm -Rf ~/.slate
 sudo ln -s $WORK/dotfiles/.slate ~/.slate
 rm -Rf ~/.ansiweatherrc
@@ -59,7 +59,7 @@ sudo ln -s $WORK/dotfiles/config/grails-compile-file /usr/local/bin/grails-compi
 rm -Rf ~/.jshintrc
 sudo ln -s $WORK/dotfiles/.jshintrc ~/.jshintrc
 rm -Rf /usr/local/bin/codenarc
-sudo ln -s ~/.vim/tools/codenarc /usr/local/bin/codenarc
+#sudo ln -s ~/.vim/tools/codenarc /usr/local/bin/codenarc
 
 #ZSH
 rm -Rf ~/.zshrc
