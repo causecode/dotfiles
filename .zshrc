@@ -1,5 +1,5 @@
 ZSH=$HOME/.oh-my-zsh
-#export WORK=<Workspace>
+source ~/.zshrc-private
 
 #ohymyzsh theme
 ZSH_THEME="shaun"

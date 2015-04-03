@@ -1,13 +1,15 @@
 set nocompatible
 set exrc
 filetype off
-"set rtp+=~/.vim/bundle/vundle/
-set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=~/.vim/bundle/vundle
 call vundle#begin()
+call vundle#rc()
+set rtp+=~/.vim/bundle/vundleconfig/
+call vundleconfig#init()
 
 
 "Plugins management
-Plugin 'sjurgemeyer/vundleconfig.git'
+Plugin 'causecode/vundleconfig.git'
 Plugin 'gmarik/vundle'
 
 "Code completion
