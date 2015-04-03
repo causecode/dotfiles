@@ -18,12 +18,11 @@ export PATH=/usr/local/share/npm/bin:$PATH
 # export VIM_APP_DIR=~/Applications
 
 #VI/VIM defaults
-#export VIMRUNTIME=~/Applications/MacVim.app/Contents/Resources/vim/runtime
-#export EDITOR='~/Applications/MacVim.app/Contents/MacOS/Vim'
-#alias vim='~/Applications/MacVim.app/Contents/MacOS/Vim'
-
+export VISUAL=vim
+export EDITOR="$VISUAL"
 export SVN_EDITOR=vim
-alias n='vim'
+export GIT_EDITOR=vim
+alias v='vim'
 
 #VI Mode
 bindkey -v
