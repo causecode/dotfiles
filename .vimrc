@@ -166,6 +166,11 @@ set backupdir=~/.vimbackup
 set directory=~/.vimbackup
 set undodir=~/.vimundo
 
+" Spell check
+autocmd BufRead,BufNewFile *.md setlocal spell
+autocmd BufRead,BufNewFile *.md set complete+=kspell
+autocmd FileType gitcommit setlocal spell
+
 " Startify
 let g:ctrlp_reuse_window = 'startify'
 
@@ -282,6 +287,7 @@ command! WP :call WordProcessorMode()
 
 "Undo wordprocessormode
 func! CodeMode() 
+	colorscheme solarized
 	let jshint2_save = 1
 	let jshint2_read = 1
 	"set expandtab 
@@ -296,18 +302,18 @@ command! CodeMode :call CodeMode()
 
 func! CodeModeLight() 
 	set background=light
-	colorscheme solarized
 	:call CodeMode()
 endfu 
 command! Codel :call CodeModeLight()
 
 func! CodeModeDark() 
 	set background=dark
-	colorscheme solarized
 	:call CodeMode()
 endfu 
 command! Code :call CodeModeDark()
 
+"Code mode by default
+:call CodeModeLight()
 
 "dragVisuals shortcuts
 vmap <expr> <LEFT> DVB_Drag('left')
@@ -316,8 +322,6 @@ vmap <expr> <UP> DVB_Drag('up')
 vmap <expr> <DOWN> DVB_Drag('down')
 vmap <expr> D DVB_Duplicate()
 
-"Code mode by default
-:Codel
 
 "Cursor in terminal mode
 if $TERM_PROGRAM =~ "iTerm"
@@ -382,6 +386,5 @@ set secure
 " Add a private vim-rc for other things
 " source ~/.vimrc-private
 
-syntax enable
 set background=dark
 colorscheme solarized
