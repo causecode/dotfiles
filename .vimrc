@@ -33,6 +33,7 @@ Plugin 'jlanzarotta/bufexplorer'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'mhinz/vim-startify'
 Plugin 'airblade/vim-rooter'
+Plugin 'dbakker/vim-projectroot'
 
 "Searching
 Plugin 'mileszs/ack.vim'
@@ -153,7 +154,7 @@ set undofile
 set wildignore+=*.class,.git,.hg,.svn,test-integration/**,test-unit/**,**/target/**,**/build/**
 set diffopt=filler,vertical
 
-set tags=tags;/
+set tags=~/.tags
 set ic
 set smartcase
 set incsearch 

@@ -20,3 +20,7 @@ let g:tagbar_type_groovy= {
 map <F3> :TagbarToggle<CR>
 
 
+function! SetCtagsForProject()
+	let projectRoot = projectroot#get() . '/.git/tags'
+	set tags=projectRoot
+endfunction
