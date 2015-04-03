@@ -3,7 +3,6 @@ set exrc
 filetype off
 set rtp+=~/.vim/bundle/vundle
 call vundle#begin()
-call vundle#rc()
 set rtp+=~/.vim/bundle/vundleconfig/
 call vundleconfig#init()
 
@@ -312,8 +311,6 @@ func! CodeModeDark()
 endfu 
 command! Code :call CodeModeDark()
 
-"Code mode by default
-:call CodeModeLight()
 
 "dragVisuals shortcuts
 vmap <expr> <LEFT> DVB_Drag('left')
@@ -386,5 +383,5 @@ set secure
 " Add a private vim-rc for other things
 " source ~/.vimrc-private
 
-set background=dark
-colorscheme solarized
+"Code mode by default
+:Codel
