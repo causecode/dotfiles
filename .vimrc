@@ -171,6 +171,8 @@ autocmd BufRead,BufNewFile *.md setlocal spell
 autocmd BufRead,BufNewFile *.md set complete+=kspell
 autocmd FileType gitcommit setlocal spell
 
+autocmd BufRead,BufNewFile *.js JSHint 
+
 " Startify
 let g:ctrlp_reuse_window = 'startify'
 
@@ -201,6 +203,7 @@ noremap <leader>f :Autoformat<cr><cr>
 map <leader>j 50k
 map <leader>w :w!<cr>
 map <leader>h :JSHint <cr>
+map <leader>o :copen <cr>
 map <leader>w :w!<cr>
 map <leader><leader>h :help usr_41.txt<cr>
 map <leader><leader>H :help function-list<cr>
